@@ -101,6 +101,7 @@ body {
 .team-title .team-text {
   text-align: center;
 }
+/* FOOTER */
 .footer {
   background-color: var(--sec-text-color-);
 }
@@ -109,9 +110,50 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer-link {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* PORTFOLIO */
+.portfolio {
+  background-color: var(--white-color);
+}
+
+.filter li {
+  list-style: none;
+}
+.filter-buttons {
+  background-color: var(--sec-bg-color-);
+  color: #212121;
+}
+.filter-buttons:focus,
+.filter-buttons:hover {
+  background-color: var(--brend-color-);
+  color: var(--white-color);
+}
+.cards li {
+  list-style: none;
+}
+.cards a {
+  text-decoration: none;
+}
+.card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--sec-text-color-);
+}
+.card-text {
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color-);
 }

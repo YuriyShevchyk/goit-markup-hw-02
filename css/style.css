@@ -82,6 +82,7 @@ body {
 .hero-button {
   background-color: var(--brend-color-);
   color: var(--white-color);
+  cursor: pointer;
 }
 .main {
   background-color: var(--white-color);
@@ -112,6 +113,12 @@ body {
   line-height: 1.7;
   color: var(--white-color);
 }
+.footer-adress:focus,
+.footer-adress:hover,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--brend-color-);
+}
 .footer-link {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
@@ -128,6 +135,7 @@ body {
 .filter-buttons {
   background-color: var(--sec-bg-color-);
   color: #212121;
+  cursor: pointer;
 }
 .filter-buttons:focus,
 .filter-buttons:hover {

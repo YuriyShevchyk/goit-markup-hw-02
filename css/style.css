@@ -1,5 +1,62 @@
+:root {
+  --brend-color-: #2196f3;
+  --main-text-color-: #757575;
+  --logo-sec-color-: #000000;
+  --sec-text-color-: #212121;
+  --sec-bg-color-: #f5f4fa;
+  --white-color: #ffffff;
+}
+
 body {
   font-family: Roboto, sans-serif;
+  color: var(--main-text-color-);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
-:root {
+.title {
+  color: var(--sec-text-color-);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+}
+.header {
+  background-color: var(--white-color);
+}
+
+.hero {
+  background-color: var(--sec-text-color-);
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-button {
+  background-color: var(--brend-color-);
+  color: var(--white-color);
+}
+.main {
+  background-color: var(--white-color);
+}
+
+.team {
+  background-color: var(--sec-bg-color-);
+}
+.about-us-title,
+.team-title {
+  color: var(--sec-text-color-);
+  font-weight: 700;
+}
+.about-us-title {
+  text-transform: uppercase;
+}
+.team-title .team-text {
+  text-align: center;
 }

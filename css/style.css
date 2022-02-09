@@ -27,7 +27,48 @@ body {
 .header {
   background-color: var(--white-color);
 }
+/* ????? */
+.header li,
+.main li,
+.footer li {
+  list-style: none;
+}
 
+.nav .link {
+  color: var(--sec-text-color-);
+}
+.nav .link:focus,
+.nav .link:hover {
+  color: var(--brend-color-);
+}
+.header-link {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--brend-color-);
+}
+/* LOGO */
+.logo {
+  color: var(--brend-color-);
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+}
+.logo-secondary {
+  color: var(--logo-sec-color-);
+}
+.logo-secondary-footer {
+  color: var(--white-color);
+}
+/* HERO */
 .hero {
   background-color: var(--sec-text-color-);
   color: var(--white-color);
@@ -59,4 +100,18 @@ body {
 }
 .team-title .team-text {
   text-align: center;
+}
+.footer {
+  background-color: var(--sec-text-color-);
+}
+.footer-adress {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+.footer-link {
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
 }

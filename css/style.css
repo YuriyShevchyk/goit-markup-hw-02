@@ -13,6 +13,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  background-color: var(--white-color);
 }
 .title {
   color: var(--sec-text-color-);
@@ -24,16 +25,11 @@ body {
 .link {
   text-decoration: none;
 }
-.header {
-  background-color: var(--white-color);
-}
-/* ????? */
-.header li,
-.main li,
-.footer li {
+
+.list {
   list-style: none;
 }
-
+/* NAV */
 .nav .link {
   color: var(--sec-text-color-);
 }
@@ -60,7 +56,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
 }
 .logo-secondary {
   color: var(--logo-sec-color-);
@@ -84,13 +79,19 @@ body {
   color: var(--white-color);
   cursor: pointer;
 }
-.main {
-  background-color: var(--white-color);
-}
 
+.hero-button:focus,
+.hero-button:hover {
+  background-color: #188ce8;
+}
+/* TEAM */
 .team {
   background-color: var(--sec-bg-color-);
 }
+.team-title .team-text {
+  text-align: center;
+}
+/* ABOUT */
 .about-us-title,
 .team-title {
   color: var(--sec-text-color-);
@@ -98,17 +99,18 @@ body {
 }
 .about-us-title {
   text-transform: uppercase;
+
+  font-size: 14px;
+  line-height: 1.14;
 }
-.team-title .team-text {
-  text-align: center;
-}
+
 /* FOOTER */
 .footer {
   background-color: var(--sec-text-color-);
 }
 .footer-adress {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   color: var(--white-color);
@@ -125,13 +127,13 @@ body {
 }
 
 /* PORTFOLIO */
-.portfolio {
+/* .portfolio {
   background-color: var(--white-color);
-}
+} */
 
-.filter li {
+/* .filter li {
   list-style: none;
-}
+} */
 .filter-buttons {
   background-color: var(--sec-bg-color-);
   color: #212121;
@@ -142,12 +144,12 @@ body {
   background-color: var(--brend-color-);
   color: var(--white-color);
 }
-.cards li {
+/* .cards li {
   list-style: none;
 }
 .cards a {
-  text-decoration: none;
-}
+  text-decoration: none; */
+
 .card-title {
   font-style: normal;
   font-weight: 700;
@@ -164,4 +166,16 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--main-text-color-);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }

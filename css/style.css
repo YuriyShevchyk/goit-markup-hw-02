@@ -21,6 +21,7 @@ body {
   font-size: 36px;
   line-height: 1.7;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .link {
   text-decoration: none;
@@ -32,9 +33,14 @@ body {
 /* NAV */
 .nav .link {
   color: var(--sec-text-color-);
+  font-weight: 500;
 }
 .nav .link:focus,
-.nav .link:hover {
+.nav .link:hover, {
+  color: var(--brend-color-);
+}
+
+.nav .link.current {
   color: var(--brend-color-);
 }
 .header-link {
@@ -66,6 +72,8 @@ body {
 /* HERO */
 .hero {
   background-color: var(--sec-text-color-);
+}
+.hero-title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -78,6 +86,15 @@ body {
   background-color: var(--brend-color-);
   color: var(--white-color);
   cursor: pointer;
+        font-family: inherit;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
 }
 
 .hero-button:focus,
@@ -90,6 +107,8 @@ body {
 }
 .team-title .team-text {
   text-align: center;
+  font-size: 16px;
+  line-height: 1.19;
 }
 /* ABOUT */
 .about-us-title,
@@ -97,11 +116,20 @@ body {
   color: var(--sec-text-color-);
   font-weight: 700;
 }
+
 .about-us-title {
   text-transform: uppercase;
 
   font-size: 14px;
   line-height: 1.14;
+}
+.about-txt {
+  line-height: 1.71;
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
 }
 
 /* FOOTER */
@@ -127,28 +155,24 @@ body {
 }
 
 /* PORTFOLIO */
-/* .portfolio {
-  background-color: var(--white-color);
-} */
 
-/* .filter li {
-  list-style: none;
-} */
 .filter-buttons {
   background-color: var(--sec-bg-color-);
-  color: #212121;
+  color: var(--sec-text-color-);
   cursor: pointer;
+  font-family: inherit
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
 }
 .filter-buttons:focus,
 .filter-buttons:hover {
   background-color: var(--brend-color-);
   color: var(--white-color);
 }
-/* .cards li {
-  list-style: none;
-}
-.cards a {
-  text-decoration: none; */
 
 .card-title {
   font-style: normal;
